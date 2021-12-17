@@ -1,30 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
-body{
+body {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     height: 100%;
     font-family: 'Ubuntu', sans-serif;
     background:
-        linear-gradient(
-          rgba(0, 0, 0, 0.774), 
-          rgba(0, 0, 0, 0.747)
-        ),
+        linear-gradient(rgba(0, 0, 0, 0.774),
+            rgba(0, 0, 0, 0.747)),
         url(https://desktophut.com/wp-content/uploads/2017/12/iwmVpQh.jpg.webp);
     background-position: center top;
     background-size: 100% auto;
-    background-repeat:no-repeat;
-    -webkit-background-size:cover;
-    -moz-background-size:cover;
-    -o-background-size:cover;
-    background-size:cover;
-    background-position:center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
     justify-content: center;
     display: flex;
     position: relative;
 }
-.container{
+
+.container {
     margin: auto;
     width: 100% auto;
     margin: 20px 0 0 0;
@@ -39,9 +38,9 @@ body{
     position: absolute;
     width: 100%;
     height: 100%;
-  }
+}
 
-.container .profile-pic{
+.container .profile-pic {
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     width: 104px;
     height: 104px;
@@ -52,18 +51,18 @@ body{
     z-index: 99;
 }
 
-.container .profile-info{
+.container .profile-info {
     margin-bottom: 15px;
     text-align: center;
     line-height: 2px;
     z-index: 21;
 }
 
-.profile-info p{
+.profile-info p {
     font-size: 13px;
 }
 
-.card{
+.card {
     box-shadow: 0 0 1vh rgb(0, 0, 0);
     border-radius: 15px;
     align-items: center;
@@ -74,7 +73,7 @@ body{
     z-index: 21;
 }
 
-.about{
+.about {
     margin-left: 50px;
     text-align: center;
     font-weight: bold;
@@ -82,10 +81,11 @@ body{
     word-wrap: break-word;
 }
 
-#social{
+#social {
     font-size: 14px;
 }
-.btn{
+
+.btn {
     display: flex;
     justify-content: center;
     font-family: 'Ubuntu', sans-serif;
@@ -102,33 +102,34 @@ body{
     text-decoration: none;
 }
 
-.btn:hover{
+.btn:hover {
     background: linear-gradient(101.07deg, #c07c16 7.93%, #e25d1f 93.3%);
 }
 
-.btn i{
+.btn i {
     margin-right: 6px;
 }
 
-.btn.insta{
+.btn.insta {
     background: linear-gradient(101.07deg, #7d1ebd 7.93%, #bb17a5 93.3%);
     color: #fff;
 }
-.btn.insta:hover{
+
+.btn.insta:hover {
     background: linear-gradient(101.07deg, #bb17a5 7.93%, #7d1ebd 93.3%);
     color: #fff;
 }
 
-.btn.linkedin{
+.btn.linkedin {
     background: linear-gradient(101.07deg, #1e5ebd 7.93%, #178cbb 93.3%);
     color: #fff;
 }
 
-.btn.linkedin:hover{
+.btn.linkedin:hover {
     background: linear-gradient(101.07deg, #178cbb 7.93%, #1e5ebd 93.3%);
     color: #fff;
 }
 
-.list-btn{
+.list-btn {
     margin-right: 67px;
 }
